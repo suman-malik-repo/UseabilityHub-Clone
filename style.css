@@ -50,6 +50,17 @@ a{
     margin-inline: auto; /*margin left and right*/
     padding-inline: var(--padding-inline-section);
 }
+ul{
+    list-style: none;
+}
+
+/* utility */
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+/* top banner */
 .banner-text{
     color: white;
     padding: 15px 30px;
@@ -59,4 +70,19 @@ a{
     background-image: url("./assets/asset\ 32.png");
     background-color: #4fb3d4;
     background-size: 300px;
+}
+/* navigation */
+.main-nav{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.company-logo img{
+    width: 200px;
+}
+.nav-links{
+    flex-basis: 730px;
+}
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
 }
